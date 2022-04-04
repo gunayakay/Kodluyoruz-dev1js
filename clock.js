@@ -1,10 +1,10 @@
-let isimalani=document.querySelector("#myName");
+let gorunecekIsim=document.querySelector("#myName");
 var isim= prompt("Adınızı Girin");
 if(isim.length>0){
-isimalani.innerHTML=isim;
+gorunecekIsim.innerHTML=isim;
 }
 else{
-isimalani.innerHTML="Misafir";
+gorunecekIsim.innerHTML="Misafir";
 }
 
 
